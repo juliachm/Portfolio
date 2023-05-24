@@ -1,350 +1,423 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio of Julia Chmurna, UX designer and front-end developer"
+    />
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portfolio of Julia Chmurna, UX designer and front-end developer">
-
-    <link rel="icon" href="../img/logo/favicon-JC.png">
-    <link rel="apple-touch-icon" href="../img/logo/apple-touch-icon.png">
-    <link rel="manifest" href="manifest.webmanifest">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- <link rel="icon" href="../img/logo/favicon-JC.png" />
+    <link rel="apple-touch-icon" href="../img/logo/apple-touch-icon.png" /> -->
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
 
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="stylesheet" href="../css/queries.css" />
 
-    <script type="module" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule="" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"></script>
-    <script defer src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
     <script defer src="../js/script.js"></script>
 
     <title>Julia Chmurna &mdash; Portfolio</title>
+  </head>
 
-</head>
-
-<body>
+  <body>
     <header class="header">
-        <a href="#"><img src="../img/logo/logo-JC.png" alt="JC logo" class="logo"></a>
-        <nav class="main-nav">
-            <ul class="main-nav-list">
-                <li><a href="#who" class="main-nav-link">About</a></li>
-                <li><a href="#edu" class="main-nav-link">Education</a></li>
-                <li><a href="#portfol" class="main-nav-link">Portfolio</a></li>
-                <li><a href="#cont" class="main-nav-link">Contact</a></li>
-            </ul>
-        </nav>
-        <button class="btn-mobile-nav">
-            <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
-            <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
-        </button>
+      <!-- <a href="#home" class="main-nav-link link-home">jc</a> -->
+      <!-- <a href="#"
+        ><img src="../img/logo/logo-JC.png" alt="JC logo" class="logo"
+      /></a> -->
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a href="#home" class="main-nav-link">Home</a></li>
+          <li><a href="#who" class="main-nav-link">About</a></li>
+          <li><a href="#edu" class="main-nav-link">Education</a></li>
+          <li><a href="#portfol" class="main-nav-link">Portfolio</a></li>
+          <li><a href="#cont" class="main-nav-link">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
     </header>
 
     <main>
-        <section class="section-hero">
-            <div class="hero">
-                <div class="hero-text-box">
-                    <h1 class="heading-hero-primary">Julia Chmurna</h1>
-                    <p class="hero-secondary">UX designer & Front-End Developer</p>
-                    <a href="#cont" class="btn margin-right-sm">Let's Talk</a>
-                    <a href="#portfol" class="btn">Portfolio &#8599;</a>
-                </div>
-                <div class="hero-img-box">
-                    <picture>
-                        <source srcset="../img/profile/hero_img.webp" type="image/webp" />
-                        <source srcset="../img/profile/hero_img.png" type="image/png" />
-                        <img src="../img/profile/hero_img.png" class="hero-img" alt="Julia Chmurna">
-                    </picture>
-                </div>
-            </div>
-        </section>
+      <section class="section-hero" id="home">
+        <div class="hero">
+          <div class="hero-text-box">
+            <h1 class="heading-hero-primary">Julia Chmurna</h1>
+            <p class="hero-secondary">UX designer & Front-End Developer</p>
+            <a href="#cont" class="btn margin-right-sm">Let's Talk</a>
+            <a href="#portfol" class="btn">Portfolio &#8599;</a>
+          </div>
+          <div class="hero-img-box">
+            <picture>
+              <source srcset="../img/profile/hero_img.webp" type="image/webp" />
+              <source srcset="../img/profile/hero_img.png" type="image/png" />
+              <img
+                src="../img/profile/hero_img.png"
+                class="hero-img"
+                alt="Julia Chmurna"
+              />
+            </picture>
+          </div>
+        </div>
+      </section>
 
-        <section class="section-about" id="who">
-            <div class="container">
-                <h2 class="heading-secondary">Who Am I?</h2>
-            </div>
-            <div class="container grid grid--2-cols">
-                <div class="about-text-box">
-                    <p> UX designer and front-end developer who is graduating in June 2023 from
-                        University in Oslo in the
-                        bachelor's program "Informatics: Design, Use, Interaction."</p>
-                    <p>I am eager to work with front-end development and have taken several
-                        online courses focused on HTML,
-                        CSS, JavaScript and React along with the courses and subjects at the university specialized in
-                        interaction design. I am very driven to do my best in every challenge that I face and through
-                        design
-                        contribute to make everyday life easier and more fun.</p>
-                    <ul class="list-about">
-                        <li>I like to work structured and to have a plan, but I am also creative problem solver.</li>
-                        <li>I like working in a team with commited people.</li>
-                        <li>But,sometimes I think it is very nice to work independently and plan all by yourself.</li>
-                        <li>I have worked for several years where I gained experience within customer experience.</li>
-                    </ul>
+      <section class="section-about" id="who">
+        <div class="container">
+          <h2>Who Am I?</h2>
+        </div>
+        <div class="container grid grid--2-cols">
+          <div class="about-text-box">
+            <p>
+              Hello! My name is Julia and I am a UX designer and front-end
+              developer set to graduate in June 2023 from University of Oslo
+              with a bachelor's degree in "Informatics: Design, Use,
+              Interaction. With a strong interest in front-end development, I
+              have completed various online courses that focus on HTML, CSS,
+              JavaScript and React, in addition to university courses that
+              specialize in interaction design.
+            </p>
+            <p>
+              Interaction design and development are my passions because they
+              allow me to pursue what I love: creating excellent user
+              experiences, collaborating with diverse teams across disciplines,
+              working with technology, and gaining valuable insights from
+              people.
+            </p>
+            <ul class="list-about">
+              <li>
+                I like to work structured and to have a plan, but I am also
+                creative problem solver.
+              </li>
+              <li>
+                Working alongside dedicated team members is something I enjoy,
+                although I also value the freedom of independent work and
+                planning.
+              </li>
+              <li>
+                My prior experience in customer experience has allowed me to
+                gain practical knowledge and skills over the years.
+              </li>
+            </ul>
+            <p>
+              I am now eager to take on new challenges and experiences to build
+              upon!
+            </p>
+          </div>
+          <div class="skills-text-box">
+            <div class="card-skills">
+              <div class="card-heading">
+                <div class="img-card">
+                  <ion-icon name="color-filter-outline"></ion-icon>
                 </div>
-                <div class="skills-text-box">
-                    <div class="card-skills">
-                        <div class="card-heading">
-                            <div class="img-card">
-                                <ion-icon name="color-filter-outline"></ion-icon>
-                            </div>
-                            <div class="img-text">
-                                <p class="subheading">Design tools</p>
-                            </div>
-                        </div>
-                        <div class="skillbox">
-                            <p>Figma</p>
-                            <p>90%</p>
-                            <div class="skill">
-                                <div class="level level--figma"></div>
-                            </div>
-                        </div>
-                        <div class="skillbox">
-                            <p>Illustrator</p>
-                            <p>60%</p>
-                            <div class="skill">
-                                <div class="level level--illu"></div>
-                            </div>
-                        </div>
-                        <div class="skillbox">
-                            <p>Photoshop</p>
-                            <p>55%</p>
-                            <div class="skill">
-                                <div class="level level--photo"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-skills">
-                        <div class="card-heading">
-                            <div class="img-card">
-                                <ion-icon name="code-slash-outline"></ion-icon>
-                            </div>
-                            <div class="img-text">
-                                <p class="subheading">Programming</p>
-                            </div>
-                        </div>
-                        <div class="skillbox">
-                            <p>HTML</p>
-                            <p>90%</p>
-                            <div class="skill">
-                                <div class="level level--html"></div>
-                            </div>
-                        </div>
-                        <div class="skillbox">
-                            <p>CSS</p>
-                            <p>70%</p>
-                            <div class="skill">
-                                <div class="level level--css"></div>
-                            </div>
-                        </div>
-                        <div class="skillbox">
-                            <p>JavaScript</p>
-                            <p>50%</p>
-                            <div class="skill">
-                                <div class="level level--js"></div>
-                            </div>
-                        </div>
-                        <div class="skillbox">
-                            <p>React</p>
-                            <p>55%</p>
-                            <div class="skill">
-                                <div class="level level--react"></div>
-                            </div>
-                        </div>
-                        <div class="skillbox">
-                            <p>Python</p>
-                            <p>50%</p>
-                            <div class="skill">
-                                <div class="level level--python"></div>
-                            </div>
-                        </div>
-                        <div class="skillbox">
-                            <p>Java</p>
-                            <p>50%</p>
-                            <div class="skill">
-                                <div class="level level--java"></div>
-                            </div>
-                        </div>
-                        <div class="skillbox">
-                            <p>Arduino</p>
-                            <p>50%</p>
-                            <div class="skill">
-                                <div class="level level--ardu"></div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="img-text">
+                  <p class="subheading">Design tools</p>
                 </div>
+              </div>
+              <ul class="skills">
+                <li>Figma</li>
+                <li>Illustrator</li>
+                <li>Photoshop</li>
+              </ul>
             </div>
-        </section>
+            <div class="card-skills">
+              <div class="card-heading">
+                <div class="img-card">
+                  <ion-icon name="code-slash-outline"></ion-icon>
+                </div>
+                <div class="img-text">
+                  <p class="subheading">Programming</p>
+                </div>
+              </div>
+              <ul class="skills">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Java</li>
+                <li>Python</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
 
-        <section class="section-education" id="edu">
-            <div class="container">
-                <h2 class="heading-secondary">Education</h2>
-            </div>
-            <div class="container intro">
-                <p>My education background is based on the university degree in interaction design from UiO, The Faculty
-                    of Mathematics and Natural Sciences. </p>
-                <p>Besides, I took several online
-                    courses (HTML, CSS, JavaScript, React, MongoDB) on the platform Udemy focused
-                    on both technical and visual development of user-friendly solutions.
+      <section class="section-education" id="edu">
+        <div class="container">
+          <h2>Education</h2>
+        </div>
+        <div class="container intro">
+          <p>
+            My educational background is centered around my university degree in
+            interaction design from UiO, The Faculty of Mathematics and Natural
+            Sciences.
+          </p>
+          <p>
+            Additionally, I have completed several online courses on the Udemy
+            platform that focus on both technical and visual development of
+            user-friendly solutions, specifically in HTML, CSS and JavaScript.
+          </p>
+        </div>
+        <div class="container">
+          <ul class="education">
+            <li>
+              <p class="where">
+                University of Oslo // Bachelor's degree in Informatics: Design,
+                Use, Interaction
+              </p>
+              <p class="when">Aug 2020 - June 2023</p>
+              <p class="description">
+                Interdisciplinary program placing a strong emphasis on
+                user-experience design. Project-based courses designed to bring
+                together human-computer interaction and information technology
+                within agile/scrum teams. The design process as an iterative
+                process involves researching, designing, prototyping, and
+                testing.
+              </p>
+            </li>
+            <li>
+              <p class="where">
+                OsloMet // One-year programme in Design and Communication in
+                Digital Media
+              </p>
+              <p class="when">Aug 2019 - June 2020</p>
+              <p class="description">
+                A year's study in digital media design exploring range of media
+                - photography, graphic design and websites. Idea development,
+                understanding the use of different design tools and digital
+                image processing/manipulation.
+              </p>
+            </li>
+            <li>
+              <p class="where">
+                University of Economics in Bratislava, Slovakia // Master's
+                degree in Tourism Management
+              </p>
+              <p class="when">Aug 2007 - May 2012</p>
+              <p class="description">
+                Degree recognized by Norwegian Agency for Quality Assurance in
+                Education (NOKUT) as equivalent to a Norwegian Master Degree.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section-portfolio" id="portfol">
+        <div class="container">
+          <h2>Portfolio</h2>
+        </div>
+        <div class="container intro">
+          <p>
+            My portfolio showcases several of the design projects I have worked
+            on, highlighting the UX design process that led to the development
+            of the final products. These projects include blend of user
+            research, wireframing, prototyping, and user testing, all aimed at
+            creating effective and engaging digital experiences.
+          </p>
+          <p>
+            Among these projects, you will find university assignments, personal
+            projects pursued during my freetime, and projects completed as a
+            part of my work experience.
+          </p>
+        </div>
+        <div class="container container-gallery">
+          <ul class="image-gallery">
+            <li>
+              <img src="../img/portfolio/sensio.png" alt="App Redesign" />
+
+              <div class="overlay">
+                <p class="project-name">
+                  Transformative Design &#47; Redesign Sensio Apps
                 </p>
-            </div>
-            <div class="container">
-                <ul class="experience">
-                    <li>
-                        <p class="where">University of Oslo // Bachelor in Informatics: Design, Use, Interaction</p>
-                        <p class="when">2020 - Present</p>
-                        <p class="description">Usability for all users, positive user experience,etc</p>
-                    </li>
-                    <li>
-                        <p class="where">OsloMet</p>
-                        <p class="when">Aug 2019 - June 2020</p>
-                        <p class="description">One-year Programme in Design and Communication in Digital Media</p>
-                    </li>
-                    <li>
-                        <p class="where">University of Economics in Bratislava, Slovakia</p>
-                        <p class="when">Aug 2007 - May 2012</p>
-                        <p class="description">Master in Tourism Management</p>
-                    </li>
-                </ul>
-            </div>
-        </section>
 
-        <section class="section-portfolio" id="portfol">
-            <div class="container">
-                <h2 class="heading-secondary">Portfolio</h2>
-            </div>
-            <div class="container intro">
                 <p>
-                    This portfolio describes several of mine
-                    design project I have been involved in,
-                    and the process that led up to
-                    the finished products.
+                  This project in collaboration with Sensio, the market leader
+                  in welfare technology in Norway, focuses on transformative
+                  design and change towards sustainability and democracy.
                 </p>
-            </div>
-            <div class="container container-gallery">
-                <ul class="image-gallery">
-                    <li>
-                        <picture>
-                            <source srcset="../img/portfolio/coming-soon-min.webp" type="image/webp" />
-                            <source srcset="../img/portfolio/coming-soon.png" type="image/png" />
-                            <img src="../img/portfolio/coming-soon.png" alt="Project" />
-                        </picture>
-                        <div class="overlay">
-                            <span>Project &#47; Coming soon</span>
-                        </div>
-                    </li>
-                    <li>
-                        <img src="../img/portfolio/photoshop.jpg" alt="Project Photoshop" />
-                        <div class="overlay">
-                            <span>Photoshop &#47; Concert Poster</span>
-                            <p>The project involved creating a poster for the Riddu Riddu Festival
-                                in Adobe Photoshop using the Layer Mask tool.
-                            </p>
-                            <p>Working with Photoshop layers gave me better
-                                understanding of its importance, while keeping focus on typography
-                                and colors.
-                            </p>
-                        </div>
-                    </li>
-                    <li>
-                        <img src="../img/portfolio/juliachmurna.png" alt="Website Development" />
-                        <div class="overlay">
-                            <span>Website Development &#47; juliachmurna</span>
-                            <p>Creating my own portfolio website in HTML and CSS from scratch
-                                gave me an opportunity to present myself, my skills and projects
-                                I have worked on.
-                            </p>
-                            <p><a href="https://github.com/juliachm/Portfolio" class="link-portfolio"
-                                    target="_blank">Website on GitHub</a></p>
-                        </div>
-                    </li>
-                    <li>
-                        <img src="../img/portfolio/borealys_app.png" alt="" />
-                        <div class="overlay">
-                            <span>App Development &#47; Borealys</span>
-                            <p>As a part of a team, I designed and developed the application monitoring auroral activity
-                                and predicting its visibily based on data from different APIs. The application has a
-                                strong focus on
-                                the user experience and universal design.
-                                The app is written in Kotlin and XML in Android Studio. </p>
-                            <p>
-                                The project has given me an opportunity to experience interdisciplinary teamwork
-                                benefiting from implementing Scrumban
-                                approach.</p>
-                            <p><a href="https://github.com/oscarthomsen1/IN2000_project" class="link-portfolio"
-                                    target="_blank">App on GitHub</a></p>
-                        </div>
-                    </li>
-                    <li>
-                        <img src="../img/portfolio/arduino.png" alt="" />
-                        <div class="overlay">
-                            <span>Qualitative Research & Prototyping with Arduino &#47; Interactive toy</span>
-                            <p>The project based on user interviews and observations, through prototyping
-                                and several iterations led to a digital, interactive toy for small children.
-                            </p>
-                            <p><a href="https://www.uio.no/studier/emner/matnat/ifi/IN1060/v22/prosjekter-var-2022/BOP/"
-                                    class="link-portfolio" target="_blank">Project on UiO</a></p>
-                        </div>
-                    </li>
-                    <li>
-                        <img src="../img/portfolio/wireframing.png" alt="" />
-                        <div class="overlay">
-                            <span>Project &#47; Coming soon</span>
-                            <p><a href="https://www.youtube.com/watch?v=c7_n4adk1ro" class="link-portfolio"
-                                    target="_blank">Link to YouTube</a></p>
-                        </div>
-                    </li>
-                    <li>
-                        <picture>
-                            <source srcset="../img/portfolio/coming-soon-min.webp" type="image/webp" />
-                            <source srcset="../img/portfolio/coming-soon.png" type="image/png" />
-                            <img src="../img/portfolio/coming-soon.png" alt="Project" />
-                        </picture>
-                        <div class="overlay">
-                            <span>Project &#47; Coming soon</span>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </section>
+                <p>
+                  The project has been delivered to Sensio who we hope will be
+                  inspired by this redesign of their current solution, and they
+                  might continue its development.
+                </p>
+              </div>
+            </li>
+            <li class="li-standing">
+              <img src="../img/portfolio/arduino.png" alt="" />
+              <div class="overlay">
+                <p class="project-name">Arduino &#47; Interactive toy</p>
+                <p>
+                  The project based on user interviews and observations, through
+                  prototyping and several iterations led to a digital,
+                  interactive toy for small children.
+                </p>
+                <p>
+                  <a
+                    href="https://www.uio.no/studier/emner/matnat/ifi/IN1060/v22/prosjekter-var-2022/BOP/"
+                    class="link-portfolio"
+                    target="_blank"
+                    >Project on UiO</a
+                  >
+                </p>
+              </div>
+            </li>
+
+            <li>
+              <img
+                src="../img/portfolio/juliachmurna.png"
+                alt="Website Development"
+              />
+              <div class="overlay">
+                <p class="project-name">Web Development &#47; juliachmurna</p>
+                <p>
+                  Creating my own portfolio website in HTML and CSS from scratch
+                  gave me an opportunity to present myself, my skills and
+                  projects I have worked on.
+                </p>
+                <p>
+                  <a
+                    href="https://github.com/juliachm/Portfolio"
+                    class="link-portfolio"
+                    target="_blank"
+                    >Website on GitHub</a
+                  >
+                </p>
+              </div>
+            </li>
+            <li>
+              <img src="../img/portfolio/borealys.png" alt="borealys" />
+              <div class="overlay">
+                <p class="project-name">App Development &#47; Borealys</p>
+                <p>
+                  As a part of a team, I designed and developed the application
+                  monitoring auroral activity and predicting its visibily based
+                  on data from different APIs.
+                </p>
+
+                <p>
+                  App is written in Kotlin and XML in Android Studio. The
+                  project has given me an opportunity to experience
+                  interdisciplinary teamwork benefiting from implementing
+                  Scrumban approach.
+                </p>
+                <p>
+                  <a
+                    href="https://github.com/oscarthomsen1/IN2000_project"
+                    class="link-portfolio"
+                    target="_blank"
+                    >App on GitHub</a
+                  >
+                </p>
+              </div>
+            </li>
+
+            <li class="li-standing">
+              <img src="../img/portfolio/todolist.png" alt="To do list" />
+
+              <div class="overlay">
+                <p class="project-name">Development &#47; To Do List</p>
+                <p>
+                  The purpose of this project was to showcase my abilities in
+                  HTML, CSS, and JavaScript
+                </p>
+              </div>
+            </li>
+            <li>
+              <img src="../img/portfolio/dyktig.png" alt="dyktig website" />
+              <div class="overlay">
+                <p class="project-name">Web Development</p>
+                <p>
+                  One-page website for the client Dyktig AS under development in
+                  React.
+                </p>
+                <p></p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
     </main>
 
     <footer class="footer" id="cont">
-        <div class="container grid grid--footer">
-            <div>
-                <ul class="social-links">
-                    <li>
-                        <a class="footer-link" href="https://www.linkedin.com/in/julia-chmurna-9947b131/"
-                            target="_blank">
-                            <iconify-icon icon="mdi:linkedin" class="social-icon"></iconify-icon>
-                        </a>
-                    </li>
-                    <li>
-                        <a class="footer-link" href="https://github.com/juliachm" target="_blank">
-                            <iconify-icon icon="mdi:github" class="social-icon"></iconify-icon>
-                        </a>
-                    </li>
-                    <li>
-                        <a class="footer-link" href="https://www.instagram.com/julia_chmurna/" target="_blank">
-                            <iconify-icon icon="mdi:instagram" class="social-icon"></iconify-icon>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <div>
-                <p class="contacts">
-                    <a class="footer-link" href="tel:+47-97379462">+47 973 79 462</a><br />
-                    <a class="footer-link" href="mailto:j.chmurna@gmail.com">j.chmurna@gmail.com</a>
-                </p>
-            </div>
+      <div class="container grid grid--footer">
+        <div>
+          <ul class="social-links">
+            <li>
+              <a
+                class="footer-link"
+                href="https://www.linkedin.com/in/julia-chmurna-9947b131/"
+                target="_blank"
+              >
+                <iconify-icon
+                  icon="mdi:linkedin"
+                  class="social-icon"
+                ></iconify-icon>
+              </a>
+            </li>
+            <li>
+              <a
+                class="footer-link"
+                href="https://github.com/juliachm"
+                target="_blank"
+              >
+                <iconify-icon
+                  icon="mdi:github"
+                  class="social-icon"
+                ></iconify-icon>
+              </a>
+            </li>
+            <li>
+              <a
+                class="footer-link"
+                href="https://www.instagram.com/julia_chmurna/"
+                target="_blank"
+              >
+                <iconify-icon
+                  icon="mdi:instagram"
+                  class="social-icon"
+                ></iconify-icon>
+              </a>
+            </li>
+          </ul>
         </div>
+        <div>
+          <p class="contacts">
+            <a class="footer-link" href="tel:+47-97379462">+47 973 79 462</a
+            ><br />
+            <a class="footer-link" href="mailto:j.chmurna@gmail.com"
+              >j.chmurna@gmail.com</a
+            >
+          </p>
+        </div>
+      </div>
     </footer>
 
     <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
-</body>
-
+  </body>
 </html>

@@ -1,415 +1,431 @@
 /*below 1344px//smaller desktops*/
-@media (max-width:84em) {
-    .hero {
-        max-width: 120rem;
-    }
+@media (max-width: 84em) {
+  .hero {
+    max-width: 120rem;
+  }
 
-    .heading-hero-primary {
-        font-size: 4.4rem;
-    }
+  .heading-hero-primary {
+    font-size: 4.4rem;
+  }
 
-    .logo {
-        margin-left: 0;
-    }
-
-    .main-nav-list {
-        margin-left: 0;
-    }
+  .main-nav-list {
+    margin-left: 0;
+  }
 }
 
 /*below 1200px//landscape tablets*/
-@media(max-width: 75em) {
-    .html {
-        font-size: 56.25%;
-    }
+@media (max-width: 75em) {
+  .html {
+    font-size: 56.25%;
+  }
 
-    .logo {
-        height: 4rem;
-    }
+  h2 {
+    font-size: 3rem;
+  }
 
-    .heading-secondary {
-        font-size: 3rem;
-    }
+  .grid {
+    gap: 3rem;
+  }
 
-    .grid {
-        gap: 3rem;
-    }
+  .header {
+    padding: 0 3.2rem;
+  }
 
-    .header {
-        padding: 0 3.2rem;
-    }
+  .hero {
+    gap: 3rem;
+  }
 
-    .hero {
-        gap: 3rem;
-    }
+  .main-nav-list {
+    gap: 2.4rem;
+  }
 
-    .main-nav-list {
-        gap: 2.4rem;
-    }
+  .image-gallery li {
+    height: 280px;
+  }
+  .li-standing {
+    max-width: 280px;
+  }
 }
 
 /*below 930px//tablets*/
-@media(max-width: 58em) {
-    .heading-hero-primary {
-        font-size: 3.6rem;
-    }
+@media (max-width: 58em) {
+  .heading-hero-primary {
+    font-size: 3.6rem;
+  }
 
-    .logo {
-        height: 3.6rem;
-    }
+  .intro p {
+    margin-right: 2em;
+  }
+  .image-gallery li {
+    height: 200px;
+  }
+  .overlay .project-name {
+    font-size: 1.4rem;
+  }
+  .overlay p {
+    font-size: 1rem;
+  }
+  .li-standing {
+    max-width: auto;
+  }
 }
 
 /*below 860px//tablets*/
-@media(max-width: 54em) {
-    .heading-hero-primary {
-        font-size: 3rem;
-    }
+@media (max-width: 54em) {
+  body {
+    font-size: 1.4rem;
+  }
+  .heading-hero-primary {
+    font-size: 3rem;
+  }
+  .hero-secondary {
+    font-size: 1.4rem;
+  }
 
-    .main-nav-list {
-        gap: 1.6rem;
-    }
+  .main-nav-list {
+    gap: 1.6rem;
+  }
 
-    .btn:link,
-    .btn:visited {
-        font-size: 1.6rem;
-        padding: 1rem 2rem;
-    }
+  .btn:link,
+  .btn:visited {
+    font-size: 1.6rem;
+    padding: 1rem 2rem;
+  }
 
-    .btn:hover,
-    .btn:active {
-        font-size: 1.6rem;
-        padding: 1rem 2rem;
-    }
+  .btn:hover,
+  .btn:active {
+    font-size: 1.6rem;
+    padding: 1rem 2rem;
+  }
 
-    .margin-right-sm {
-        margin-bottom: 1.2rem;
-    }
+  .margin-right-sm {
+    margin-bottom: 1.2rem;
+  }
 
-    .skills-text-box {
-        flex-direction: column;
-        gap: 0.8rem;
-    }
+  .skills-text-box {
+    flex-direction: column;
+    gap: 0.8rem;
+  }
 
-    .section-about,
-    .section-education,
-    .section-portfolio {
-        padding: 6.4rem 0rem;
-    }
+  .section-about,
+  .section-education,
+  .section-portfolio {
+    padding: 6.4rem 0rem;
+  }
 
-    .section-hero {
-        padding: 3.2rem 0 6.4rem 0;
+  .section-hero {
+    padding: 3.2rem 0 6.4rem 0;
+  }
 
-    }
+  .image-gallery li {
+    height: 260px;
+  }
 
-    .image-gallery li {
-        height: 260px;
-    }
+  .grid--2-cols {
+    grid-template-columns: 1.3fr 0.7fr;
+  }
 
-    .grid--2-cols {
-        grid-template-columns: 1.3fr 0.7fr;
-    }
+  .card-skills .card-heading {
+    padding-bottom: 0rem;
+  }
 
-    .card-skills .card-heading {
-        padding-bottom: 0rem;
-    }
+  .image-gallery li {
+    height: 180px;
+  }
 
-    .overlay span {
-        font-size: 1.4rem;
-        margin-bottom: 1rem;
-    }
+  .li-standing {
+    max-width: auto;
+  }
 
-    .overlay p {
-        font-size: 1.3rem;
-        line-height: 1.4;
-    }
+  .overlay .project-name {
+    font-size: 1.2rem;
+    margin-bottom: 0.6rem;
+  }
 
-    .link-portfolio {
-        margin-top: 0;
+  .link-portfolio {
+    margin-top: 0;
+  }
 
-    }
+  .footer {
+    padding: 3.2rem;
+  }
 
-    .footer {
-        padding: 3.2rem;
-    }
+  .footer-link:link,
+  .footer-link:visited {
+    font-size: 1.6rem;
+  }
 
-    .footer-link:link,
-    .footer-link:visited {
-        font-size: 1.6rem;
+  .social-icon {
+    font-size: 2rem;
+  }
 
-    }
+  .contacts {
+    gap: 2rem;
+    font-size: 1.6rem;
+  }
 
-    .social-icon {
-        font-size: 2rem;
-    }
+  .nav-col {
+    margin-top: 2.4rem;
+  }
 
-    .contacts {
-        gap: 2rem;
-        font-size: 1.6rem;
-    }
+  .hero-img-box {
+    text-align: center;
+  }
 
-    .nav-col {
-        margin-top: 2.4rem;
-    }
+  .container-gallery {
+    padding: 2rem 7rem;
+  }
 
-    .hero-img-box {
-        text-align: center;
-    }
+  /* MOBILE NAVIGATION */
+  .btn-mobile-nav {
+    display: block;
+    z-index: 9999;
+  }
 
-    .hero-secondary {
-        margin-bottom: 8.6rem;
-    }
+  .main-nav {
+    background-color: #fdfcfcee;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 100;
+    transform: translateX(100%);
 
-    .container-gallery {
-        padding: 2rem 7rem;
-    }
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+    transition: all 0.5s ease-in;
+  }
 
-    /* MOBILE NAVIGATION */
-    .btn-mobile-nav {
-        display: block;
-        z-index: 9999;
-    }
+  .nav-open .main-nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
 
-    .main-nav {
-        background-color: #fdfcfcee;
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100vh;
-        z-index: 100;
-        transform: translateX(100%);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        opacity: 0;
-        pointer-events: none;
-        visibility: hidden;
-        transition: all 0.5s ease-in;
-    }
+  .nav-open .icon-mobile-nav[name='close-outline'] {
+    display: block;
+  }
 
-    .nav-open .main-nav {
-        opacity: 1;
-        pointer-events: auto;
-        visibility: visible;
-        transform: translateX(0);
-    }
+  .nav-open .icon-mobile-nav[name='menu-outline'] {
+    display: none;
+  }
 
-    .nav-open .icon-mobile-nav[name="close-outline"] {
-        display: block;
-    }
+  .main-nav-list {
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 7rem;
+  }
 
-    .nav-open .icon-mobile-nav[name="menu-outline"] {
-        display: none;
-    }
-
-    .main-nav-list {
-        flex-direction: column;
-        gap: 3rem;
-
-    }
-
-    .main-nav-link:link,
-    .main-nav-link:visited {
-        font-size: 3rem;
-    }
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-size: 2rem;
+  }
 }
 
 /*below 672px//small tablets*/
-@media(max-width: 42em) {
-    .hero-secondary {
-        font-size: 1.4rem;
-    }
+@media (max-width: 42em) {
+  body {
+    font-size: 1rem;
+  }
+  .heading-hero-primary {
+    font-size: 2.6rem;
+  }
+  .hero-secondary {
+    font-size: 1.2rem;
+  }
+  .btn:link,
+  .btn:visited {
+    font-size: 1rem;
+    padding: 0.6rem 1.2rem;
+  }
 
-    .heading-secondary {
-        font-size: 2.4rem;
-        margin-bottom: 4.8rem;
-    }
+  .btn:hover,
+  .btn:active {
+    font-size: 1rem;
+    padding: 0.6rem 1.2rem;
+  }
 
-    .card-skills {
-        padding: 2rem 0 0 0;
-    }
+  h2 {
+    font-size: 2.2rem;
+    margin-bottom: 4.8rem;
+  }
+  .list-about li::before {
+    font-size: 0.8rem;
+  }
+  .list-about li {
+    text-indent: -1.4rem;
+    line-height: 1.4rem;
+  }
 
-    .image-gallery li {
-        height: 220px;
-    }
+  .img-text .subheading,
+  .img-card {
+    font-size: 1.2rem;
+  }
 
-    .overlay span {
-        font-size: 1.2rem;
-        margin-bottom: 1rem;
-    }
+  .skills {
+    font-size: 1rem;
+    line-height: 2rem;
+  }
 
-    .overlay p {
-        font-size: 1.2rem;
-        line-height: 1.4;
-        margin: 0 1rem;
-    }
+  .card-skills {
+    padding: 2rem 0 0 0;
+  }
 
-    .link-portfolio {
-        margin-top: 1rem;
-    }
+  .where {
+    font-size: 1em;
+  }
 
-    .btn:link,
-    .btn:visited {
-        font-size: 1.4rem;
-        padding: 0.8rem 1.6rem;
-        margin-bottom: 1.4rem;
-    }
+  .when {
+    font-size: 0.8rem;
+  }
 
-    .btn:hover,
-    .btn:active {
-        font-size: 1.6rem;
-        padding: 0.8rem 1.6rem;
-    }
+  .description {
+    font-size: 0.8rem;
+    padding-bottom: 0.8rem;
+    line-height: 1.2rem;
+  }
 
-    .section-about,
-    .section-education,
-    .section-portfolio {
-        padding: 4.8rem 0rem;
-    }
+  .image-gallery li {
+    height: 150px;
+  }
 
-    .section-hero {
-        padding: 2.4rem 0 4.8rem 0;
-    }
+  .li-standing {
+    max-width: 120px;
+  }
 
-    .where {
-        font-size: 1.4em;
-    }
+  .overlay .project-name {
+    font-size: 1rem;
+    margin-bottom: 0.4rem;
+  }
+  .project-name + p {
+    display: none;
+  }
 
-    .when {
-        font-size: 1.2rem;
-    }
+  .section-about,
+  .section-education,
+  .section-portfolio {
+    padding: 4.8rem 0rem;
+  }
 
-    .description {
-        font-size: 1.2rem;
-        padding-bottom: 0.8rem;
-    }
+  .section-hero {
+    padding: 2.4rem 0 4.8rem 0;
+  }
 
-    .footer {
-        padding: 3.2rem;
-    }
+  .footer {
+    padding: 3.2rem;
+  }
 
-    .footer .grid {
-        gap: 2rem;
-    }
+  .footer .grid {
+    gap: 2rem;
+  }
 
-    .footer-link:link,
-    .footer-link:visited {
-        font-size: 1.2rem;
-    }
+  .footer-link:link,
+  .footer-link:visited {
+    font-size: 1.2rem;
+  }
 
-    .social-icon {
-        font-size: 1.8rem;
-    }
+  .social-icon {
+    font-size: 1.8rem;
+  }
 
-    .contacts {
-        gap: 1.6rem;
-        font-size: 1.2rem;
-    }
+  .contacts {
+    gap: 1.6rem;
+    font-size: 1.2rem;
+  }
 }
 
 /* BELOW 544px (Phones) */
 
 @media (max-width: 34em) {
-    .hero-secondary {
-        margin-bottom: 5rem;
-    }
+  .hero-secondary {
+    margin-bottom: 5rem;
+  }
 
-    .grid {
-        display: flex;
-        flex-direction: column;
-        gap: 5rem;
-    }
+  .grid {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
 
-    .grid--2-cols {
-        align-items: center;
-    }
+  .grid--2-cols {
+    align-items: center;
+  }
 
-    .list-about {
-        margin-top: 1rem;
-    }
+  .list-about {
+    margin-top: 1rem;
+  }
 
-    .intro {
-        margin-bottom: 2rem;
-    }
+  .intro {
+    margin-bottom: 2rem;
+  }
+  .intro p {
+    margin-right: 0em;
+  }
 
-    .skills-text-box {
-        flex-direction: row;
-        gap: 4rem;
-        padding: 0 2rem;
-    }
+  .skills-text-box {
+    flex-direction: row;
+    gap: 4rem;
+    padding: 0 2rem;
+  }
 
-    .heading-hero-primary {
-        font-size: 2.4rem;
-    }
+  .heading-hero-primary {
+    font-size: 2.4rem;
+  }
 
-    .heading-secondary {
-        font-size: 2rem;
-        margin-bottom: 4.2rem;
-    }
+  .section-about,
+  .section-education,
+  .section-portfolio {
+    padding: 4rem 0rem;
+  }
 
-    .logo {
-        height: 3rem;
-    }
+  .section-hero {
+    padding: 1rem 0 4rem 0;
+  }
 
-    .btn:link,
-    .btn:visited {
-        font-size: 1.2rem;
-        padding: 0.6rem 1.2rem;
-    }
+  ul.education {
+    padding-left: 4.8rem;
+    padding-top: 2.4rem;
+  }
 
-    .btn:hover,
-    .btn:active {
-        font-size: 1.2rem;
-        padding: 0.6rem 1.2rem;
-    }
+  ul.education li:before {
+    left: -16px;
+  }
 
-    .section-about,
-    .section-education,
-    .section-portfolio {
-        padding: 4rem 0rem;
-    }
+  ul.education li {
+    padding-left: 2.4rem;
+  }
 
-    .section-hero {
-        padding: 1rem 0 4rem 0;
-    }
+  ul.education li:last-child {
+    padding-bottom: 1rem;
+  }
 
-    ul.experience {
-        padding-left: 4.8rem;
-        padding-top: 2.4rem;
-    }
+  .container-gallery {
+    padding: 2.4rem 4rem;
+  }
+  .image-gallery li {
+    height: 120px;
+  }
 
-    ul.experience li:before {
-        left: -16px;
-    }
+  .li-standing {
+    max-width: 100px;
+  }
 
-    ul.experience li {
-        padding-left: 2.4rem;
-    }
+  .overlay span {
+    font-size: 1.2rem;
+    margin-bottom: 0.6rem;
+  }
 
-    ul.experience li:last-child {
-        padding-bottom: 1rem;
-    }
+  .link-portfolio {
+    margin-top: 0rem;
+    font-size: 1rem;
+  }
 
-    .container-gallery {
-        padding: 2.4rem 4rem;
-    }
-
-    .overlay span {
-        font-size: 1.2rem;
-        margin-bottom: 0.6rem;
-    }
-
-    .overlay p {
-        font-size: 1.2rem;
-        line-height: 1.4;
-        margin: 0 1rem;
-    }
-
-    .link-portfolio {
-        margin-top: 0rem;
-    }
-
-    .footer {
-        padding: 2.4rem 0;
-    }
+  .footer {
+    padding: 2.4rem 0;
+  }
 }
