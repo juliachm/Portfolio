@@ -349,7 +349,7 @@
   .icon-mobile-nav {
     height: 3rem;
     width: 3rem;
-    color: var(--main-bg-color--light);
+    color: var(--main-text-color--light);
   }
   .header {
     height: 6.4rem;
@@ -551,5 +551,71 @@
 
   .social-icon {
     font-size: 1.4rem;
+  }
+}
+
+/* BELOW 324px */
+@media (max-width: 20em) {
+  body {
+    font-size: 0.7rem;
+  }
+  .hero-secondary {
+    font-size: 0.8rem;
+  }
+  .hero-secondary:last-of-type {
+    font-size: 0.8rem;
+    margin-bottom: 1.8rem;
+  }
+  .btn:link {
+    font-size: 0.8rem;
+  }
+  h2 {
+    font-size: 1.4rem;
+    margin-bottom: 1.4rem;
+  }
+  .list-about li {
+    line-height: 1rem;
+  }
+  .list-about {
+    margin: 0.2rem 0 0 3rem;
+  }
+  .img-text .subheading {
+    font-size: 0.8rem;
+  }
+  .skills {
+    font-size: 0.8rem;
+    line-height: 1.6rem;
+  }
+
+  .grid-item-tag h3 {
+    font-size: 0.8rem;
+  }
+  .portfolio-overlay-text {
+    font-size: 0.55rem;
+  }
+  .portfolio-overlay-img img.sensio-app {
+    width: 36px;
+  }
+  .portfolio-overlay-img img.dyktig-app {
+    width: 54px;
+  }
+  .footer .grid {
+    gap: 1rem;
+  }
+  .footer-text,
+  .footer-contact {
+    font-size: 0.7rem;
+  }
+  .arrow-to-top {
+    width: 16px;
+    height: 16px;
+    margin-top: 2rem;
+  }
+  .footer-copyright {
+    font-size: 0.5rem;
+  }
+
+  .social-icon {
+    font-size: 1.2rem;
   }
 }
