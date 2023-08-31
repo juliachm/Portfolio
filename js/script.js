@@ -8,7 +8,7 @@ btnNavEl.addEventListener('click', function () {
 });
 
 const allLinks = document.querySelectorAll(
-  'a:link:not(.footer-link, .link-portfolio)'
+  'a:link:not(.footer-link, .web-link)'
 );
 
 allLinks.forEach(function (link) {
@@ -34,26 +34,24 @@ allLinks.forEach(function (link) {
   });
 });
 
-// Sticky nav
-const sectionHeroEl = document.querySelector('.section-hero');
+document.addEventListener('DOMContentLoaded', function () {
+  var backToTopButtons = document.querySelectorAll('.back-to-top');
 
-const obs = new IntersectionObserver(
-  function (entries) {
-    const ent = entries[0];
-
-    if (ent.isIntersecting === false) {
-      document.body.classList.add('sticky');
+  window.addEventListener('scroll', function () {
+    if (window.scrollY > 200) {
+      backToTopButtons.forEach(function (button) {
+        button.style.display = 'block';
+      });
+    } else {
+      backToTopButtons.forEach(function (button) {
+        button.style.display = 'none';
+      });
     }
+  });
 
-    if (ent.isIntersecting === true) {
-      document.body.classList.remove('sticky');
-    }
-  },
-  {
-    // In the viewport
-    root: null,
-    threshold: 0,
-    rootMargin: '-80px',
-  }
-);
-obs.observe(sectionHeroEl);
+  backToTopButtons.forEach(function (button) {
+    button.addEventListener('click', function () {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  });
+});

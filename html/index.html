@@ -8,18 +8,12 @@
       name="description"
       content="Portfolio of Julia Chmurna, UX designer and front-end developer"
     />
-
-    <!-- <link rel="icon" href="../img/logo/favicon-JC.png" />
-    <link rel="apple-touch-icon" href="../img/logo/apple-touch-icon.png" /> -->
     <link rel="manifest" href="manifest.webmanifest" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
     <link
-      href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200;9..40,300;9..40,500&family=Marcellus&display=swap"
       rel="stylesheet"
     />
 
@@ -44,14 +38,13 @@
   </head>
 
   <body>
+    <section class="bcg-gradient">
     <header class="header">
       <nav class="main-nav">
         <ul class="main-nav-list">
-          <li><a href="#home" class="main-nav-link">Home</a></li>
           <li><a href="#who" class="main-nav-link">About</a></li>
-          <li><a href="#edu" class="main-nav-link">Education</a></li>
-          <li><a href="#portfol" class="main-nav-link">Portfolio</a></li>
-          <li><a href="#cont" class="main-nav-link">Contact</a></li>
+          <li><a href="#portfol" class="main-nav-link">Work</a></li>
+          <li><a href="#cont" class="main-nav-link">Let's connect</a></li>
         </ul>
       </nav>
       <button class="btn-mobile-nav">
@@ -64,23 +57,24 @@
       <section class="section-hero" id="home">
         <div class="hero">
           <div class="hero-text-box">
+            <p class="hero-secondary">
+              Hi there! I'm
+            </p>
             <h1 class="heading-hero-primary">Julia Chmurna</h1>
-            <p class="hero-secondary">UX designer & Front-End Developer</p>
-            <a href="#cont" class="btn margin-right-sm">Let's Talk</a>
-            <a href="#portfol" class="btn">Portfolio &#8599;</a>
+            <p class="hero-secondary">
+              UX Designer & Front-End Developer <br />based in Oslo, Norway
+            </p>
+            <a href="#who" class="btn arrow-button">Learn more<span class="arrow"></span></a>
           </div>
           <div class="hero-img-box">
-            <picture>
-              <source srcset="../img/profile/hero_img.webp" type="image/webp" />
-              <source srcset="../img/profile/hero_img.png" type="image/png" />
               <img
-                src="../img/profile/hero_img.png"
+                src="../img/profile/julia-profil.png"
                 class="hero-img"
                 alt="Julia Chmurna"
               />
-            </picture>
           </div>
         </div>
+      </section>
       </section>
 
       <section class="section-about" id="who">
@@ -90,21 +84,12 @@
         <div class="container grid grid--2-cols">
           <div class="about-text-box">
             <p>
-              Hello! My name is Julia and I am a UX designer and front-end
-              developer set to graduate in June 2023 from University of Oslo
-              with a bachelor's degree in "Informatics: Design, Use,
-              Interaction. With a strong interest in front-end development, I
-              have completed various online courses that focus on HTML, CSS,
-              JavaScript and React, in addition to university courses that
-              specialize in interaction design.
+              Hello! My name is Julia, a UX designer and front-end
+              developer with a bachelors degree in informatics and interaction design. While I was born and raised in Slovakia, my journey led me to Norway, where I've been studying and working for the past decade.  </p>
+              <p>Travelling, one of my passions, got me thinking how services could be changed to make everybody's life better. A great user experience is something that drives me forward and through collaborating with diverse teams across disciplines, working with technology, and gaining valuable insights from people creating excellent user experiences.</p>
+              <p>I have taken various online courses that focus on front-end development, so I could be myself able to translate these insights into real-life services. I think the programming knowledge is also important for a smooth communication with the development team.
             </p>
-            <p>
-              Interaction design and development are my passions because they
-              allow me to pursue what I love: creating excellent user
-              experiences, collaborating with diverse teams across disciplines,
-              working with technology, and gaining valuable insights from
-              people.
-            </p>
+            
             <ul class="list-about">
               <li>
                 I like to work structured and to have a plan, but I am also
@@ -122,32 +107,31 @@
             </ul>
             <p>
               I am now eager to take on new challenges and experiences to build
-              upon!
-            </p>
+              upon!</p>
+              <p>
+                Check out my <a href="https://www.linkedin.com/in/julia-chmurna-9947b131" class="highlight web-link" target="_blank">
+                  Linkedin <span class="arrow-up">&#8599;</span>
+                </a> .</p>
           </div>
+          
           <div class="skills-text-box">
             <div class="card-skills">
               <div class="card-heading">
-                <div class="img-card">
-                  <ion-icon name="color-filter-outline"></ion-icon>
-                </div>
                 <div class="img-text">
-                  <p class="subheading">Design tools</p>
+                  <p class="subheading">UX Design</p>
                 </div>
               </div>
               <ul class="skills">
-                <li>Figma</li>
-                <li>Illustrator</li>
-                <li>Photoshop</li>
+                <li>UX Research</li>
+                <li>Wireframing</li>
+                <li>Prototyping</li>
+                <li>Usability Testing</li>
               </ul>
             </div>
             <div class="card-skills">
               <div class="card-heading">
-                <div class="img-card">
-                  <ion-icon name="code-slash-outline"></ion-icon>
-                </div>
                 <div class="img-text">
-                  <p class="subheading">Programming</p>
+                  <p class="subheading">Frontend</p>
                 </div>
               </div>
               <ul class="skills">
@@ -155,76 +139,27 @@
                 <li>CSS</li>
                 <li>JavaScript</li>
                 <li>React</li>
-                <li>Java</li>
-                <li>Python</li>
               </ul>
             </div>
-          </div>
+        </div>
+        </div>
         </div>
       </section>
 
-      <section class="section-education" id="edu">
-        <div class="container">
-          <h2>Education</h2>
-        </div>
-        <div class="container intro">
-          <p>
-            My educational background is centered around my university degree in
-            interaction design from UiO, The Faculty of Mathematics and Natural
-            Sciences.
-          </p>
-          <p>
-            Additionally, I have completed several online courses on the Udemy
-            platform that focus on both technical and visual development of
-            user-friendly solutions, specifically in HTML, CSS and JavaScript.
-          </p>
-        </div>
-        <div class="container">
-          <ul class="education">
-            <li>
-              <p class="where">
-                University of Oslo // Bachelor's degree in Informatics: Design,
-                Use, Interaction
-              </p>
-              <p class="when">Aug 2020 - June 2023</p>
-              <p class="description">
-                Interdisciplinary program placing a strong emphasis on
-                user-experience design. Project-based courses designed to bring
-                together human-computer interaction and information technology
-                within agile/scrum teams. The design process as an iterative
-                process involves researching, designing, prototyping, and
-                testing.
-              </p>
-            </li>
-            <li>
-              <p class="where">
-                OsloMet // One-year programme in Design and Communication in
-                Digital Media
-              </p>
-              <p class="when">Aug 2019 - June 2020</p>
-              <p class="description">
-                A year's study in digital media design exploring range of media
-                - photography, graphic design and websites. Idea development,
-                understanding the use of different design tools and digital
-                image processing/manipulation.
-              </p>
-            </li>
-            <li>
-              <p class="where">
-                University of Economics in Bratislava, Slovakia // Master's
-                degree in Tourism Management
-              </p>
-              <p class="when">Aug 2007 - May 2012</p>
-              <p class="description">
-                Degree recognized by Norwegian Agency for Quality Assurance in
-                Education (NOKUT) as equivalent to a Norwegian Master Degree.
-              </p>
-            </li>
-          </ul>
+      <section class="toolbox container">
+        <h3>Toolbox</h3>
+        <p>Here are the tools I prefer working with, but I'm always open to learning new ones.</p>
+        <div class="toolbox-icons">
+          <img src="../img/portfolio/figma-logo.png" alt="Figma logo">
+          <img src="../img/portfolio/adobe-Illustrator-logo.png" alt="Adobe Illustrator logo">
+          <img src="../img/portfolio/vscode.png" alt="VS Code logo">
+          <img src="../img/portfolio/github-dark.png" alt="GitHub logo">
+          <img src="../img/portfolio/google-analytics.png" alt="Google Analytics logo">
         </div>
       </section>
+      
 
-      <section class="section-portfolio" id="portfol">
+      <section id="portfol" class="portfolio-section">
         <div class="container">
           <h2>Portfolio</h2>
         </div>
@@ -242,126 +177,124 @@
             part of my work experience.
           </p>
         </div>
-        <div class="container container-gallery">
-          <ul class="image-gallery">
-            <li>
-              <img src="../img/portfolio/sensio.png" alt="App Redesign" />
 
-              <div class="overlay">
-                <p class="project-name">
-                  Transformative Design &#47; Redesign Sensio Apps
-                </p>
+        <section class="image-overlay-container container">
 
+          <hr class="hr-portfolio">
+          <div class="grid-container-portfolio">
+            <div class="grid-item-tag">
+                <p class="project-tag">Transformative design</p>
+                <h3>Redesign of Sensio Applications:<br> Transforming User Experiences</h3>
+              </div>
+                <div class="image-overlay image-overlay-background elderly">
+          
+                <div class="portfolio-container">
+                <div class="portfolio-overlay-text">
+                  <p>
+                    In one of my interaction design project at the university, as part of the Transformative 
+                    Design course, I and two other students collaborated with Sensio, the market leader
+                    in welfare technology in Norway. The aim was to improve the user experience of their 
+                    two apps, primarily focusing on two components: sustainability and democracy. 
+                    We chose to focus on the elderly living at home, their relatives, and the assistance provided by volunteers.
+                  </p>
+                  <p>
+                    Several interviews and workshops with various stakeholders
+                    (Sensio, the elderly, relatives, volunteers, the municipality, senior centers) helped us
+                    to understand the complexity of this wicked problem. Based on the data
+                    analysis, we developed a prototype of an app that combines aspects of two
+                    Sensio apps and includes collaboration with volunteers.
+                  </p>
                 <p>
-                  This project in collaboration with Sensio, the market leader
-                  in welfare technology in Norway, focuses on transformative
-                  design and change towards sustainability and democracy.
-                </p>
-                <p>
-                  The project has been delivered to Sensio who we hope will be
-                  inspired by this redesign of their current solution, and they
-                  might continue its development.
+                  This project, called 'Design for Dignity,' was delivered to Sensio, who can further use it for the development of their solutions.
                 </p>
               </div>
-            </li>
-            <li class="li-standing">
-              <img src="../img/portfolio/arduino.png" alt="" />
-              <div class="overlay">
-                <p class="project-name">Arduino &#47; Interactive toy</p>
-                <p>
-                  User research and prototyping in iterations led this project
-                  to a digital, interactive toy for small children build with
-                  Arduino.
-                </p>
-
-                <a
-                  href="https://www.uio.no/studier/emner/matnat/ifi/IN1060/v22/prosjekter-var-2022/BOP/"
-                  class="link-portfolio"
-                  target="_blank"
-                  >Project on UiO</a
-                >
+              <div class="portfolio-overlay-img ">
+                <img src="../img/portfolio/sensio-app.png" class="sensio-app" alt="Sensio mobile app">
               </div>
-            </li>
-
-            <li>
-              <img
-                src="../img/portfolio/juliachmurna.png"
-                alt="Website Development"
-              />
-              <div class="overlay">
-                <p class="project-name">Web Development &#47; juliachmurna</p>
-                <p>
-                  Creating my own portfolio website in HTML and CSS from scratch
-                  gave me an opportunity to present myself, my skills and
-                  projects I have worked on.
-                </p>
-
-                <a
-                  href="https://github.com/juliachm/Portfolio"
-                  class="link-portfolio"
-                  target="_blank"
-                  >Website on GitHub</a
-                >
               </div>
-            </li>
-            <li>
-              <img src="../img/portfolio/borealys.png" alt="borealys" />
-              <div class="overlay">
-                <p class="project-name">App Development &#47; Borealys</p>
-                <p>
-                  As a part of a team, I designed and developed the application
-                  monitoring auroral activity and predicting its visibily based
-                  on data from different APIs.
-                </p>
-
-                <p>
-                  App is written in Kotlin and XML in Android Studio. The
-                  project has given me an opportunity to experience
-                  interdisciplinary teamwork benefiting from implementing
-                  Scrumban approach.
-                </p>
-
-                <a
-                  href="https://github.com/oscarthomsen1/IN2000_project"
-                  class="link-portfolio"
-                  target="_blank"
-                  >App on GitHub</a
-                >
               </div>
-            </li>
+            </div>
+            <hr class="hr-portfolio">
 
-            <li class="li-standing">
-              <img src="../img/portfolio/todolist.png" alt="To do list" />
+          <div class="grid-container-portfolio">
+            <div class="grid-item-tag">
+                <p class="project-tag">Web design / Development</p>
+                <h3>Development of Dyktig AS website</h3>
+              </div>
+                <div class="image-overlay image-overlay-background office">
+          
+                <div class="portfolio-container">
+                <div class="portfolio-overlay-text">
+                  <p>
+                    Through my part-time job at Dyktig AS, I was tasked with creating a
+                    website for the company. The client wanted a clean and professional
+                    website focused on showcasing their employees and clients.
+                  </p>
+                  <p>
+                    To gather inspiration for the design, I began by examining Dyktig's logo
+                    and Facebook profile. I extracted colors, fonts, and also looked at other
+                    consulting companies for inspiration. Then, I created simple sketches and
+                    discussed them with the client. After receiving feedback, I proceeded to
+                    develop a high-fidelity prototype using Figma.
+                  </p>
+                  <p>
+                    I have recently finished developing the website using the React
+                    framework with the help of Vite and Styled components and 
+                    I am excited to continue expanding this website in the future.
+                  </p>
+                  <p class="view-web">
+                    <a href="https://dyktig.no" class="web-link"  target="_blank">
+                      View website <span class="arrow-up">&#8599;</span>
+                    </a></p>
+              </div>
+              <div class="portfolio-overlay-img ">
+                <img src="../img/portfolio/dyktig-tablet.png" class="dyktig-app" alt="Dyktig web app">
+              </div>
+              </div>
+              </div>
+            </div>
 
-              <div class="overlay">
-                <p class="project-name">Development &#47; To Do List</p>
-                <p>
-                  The purpose of this project was to showcase my abilities in
-                  HTML, CSS, and JavaScript
-                </p>
-              </div>
-            </li>
-            <li>
-              <img src="../img/portfolio/dyktig.png" alt="dyktig website" />
-              <div class="overlay">
-                <p class="project-name text-break">
-                  Web Development &#47; Nettside for Dyktig AS
-                </p>
-                <p>
-                  One-page website for the client Dyktig AS under development in
-                  React.
-                </p>
-                <p></p>
-              </div>
-            </li>
-          </ul>
-        </div>
+            <hr class="hr-portfolio">
+               
+            <div class="grid-container-portfolio">
+                <div class="grid-item-tag">
+                  <p class="project-tag">Low code </p>
+                  <h3>Learning app for small kids</h3>
+                </div>
+                
+                  <div class="image-overlay image-overlay-background kids">
+                    <div class="portfolio-container">
+                    <div class="portfolio-overlay-text">
+                        <p>
+                          This is a project in progress.
+                        </p>
+                    
+                        <p class="view-web">
+                          <a href="https://thunkable.com/" class="web-link"  target="_blank">
+                            View project <span class="arrow-up">&#8599;</span>
+                          </a>
+                        </p>
+                      </div>
+                    </div>
+                 </div>
+            </div>
+            <hr class="hr-portfolio">
+        </section>
       </section>
+
     </main>
 
     <footer class="footer" id="cont">
-      <div class="container grid grid--footer">
-        <div>
+      <div class="container">
+      <div class="grid grid--footer">
+        <div class="footer-text">
+          <p>Let's meet up for a cup of coffee! </p>
+        </div>
+        <div class="footer-contact">
+          <span>j.chmurna@gmail.com</span>
+        </div>
+
+        <div class="social-media">
           <ul class="social-links">
             <li>
               <a
@@ -401,16 +334,16 @@
             </li>
           </ul>
         </div>
-        <div>
-          <p class="contacts">
-            <a class="footer-link" href="tel:+47-97379462">+47 973 79 462</a
-            ><br />
-            <a class="footer-link" href="mailto:j.chmurna@gmail.com"
-              >j.chmurna@gmail.com</a
-            >
-          </p>
-        </div>
+        
+        <a href="#" class="back-to-top">
+          <img class="arrow-to-top" src="../img/div/arrow_up.svg" alt="Arrow">
+        </a>
       </div>
+   
+      <div class="footer-copyright" >
+      <p>&copy; 2023 - Julia Chmurna's Portfolio</p>
+    </div>
+     </div>
     </footer>
 
     <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
