@@ -1,4 +1,19 @@
-/*below 1344px//smaller desktops*/
+:root {
+  --main-text-color: rgb(70, 70, 70);
+  --main-text-color--light: #fdfcfc;
+  --main-bg-color: rgba(255, 255, 255, 1);
+  --main-bg-color--dark: #e6e6e6;
+  --footer-bg: rgba(24, 24, 24);
+  --main-hl-color--1: #f2c4ce;
+  --main-hl-color--2: #adacfc;
+}
+
+@media (max-width: 94em) {
+  .header-logo {
+    margin-left: 1rem;
+  }
+}
+/*below 1344px*/
 @media (max-width: 84em) {
   .hero {
     max-width: 110rem;
@@ -26,7 +41,7 @@
   }
 
   .header {
-    padding: 0 3.2rem;
+    padding: 0 2.4rem;
   }
 
   .hero {
@@ -42,9 +57,26 @@
   .container {
     max-width: 108rem;
   }
+  .text-overlay h2 {
+    font-size: 4.4rem;
+  }
+  section.intro-content.container {
+    max-width: 108rem;
+  }
+  main .image-container {
+    height: 50rem;
+  }
+  .image-description {
+    font-size: 1.4rem;
+    margin-bottom: 3rem;
+  }
 }
 
 @media (max-width: 62em) {
+  .header-logo {
+    font-size: 1.6rem;
+    margin-left: 0;
+  }
   .hero {
     max-width: 92rem;
   }
@@ -54,8 +86,27 @@
   .heading-hero-primary {
     font-size: 3.6rem;
   }
-  .hero-secondary:last-of-type {
-    font-size: 2rem;
+  .portfolio-container {
+    gap: 4rem;
+  }
+  .portfolio-overlay-text h3 {
+    font-size: 2.4rem;
+  }
+  .portfolio-overlay-img img.sensio-app {
+    width: 120px;
+  }
+  .portfolio-overlay-img img.dyktig-app {
+    width: 220px;
+  }
+
+  .portfolio-overlay-img img.planten-app {
+    width: 170px;
+  }
+  section.intro-content.container {
+    max-width: 92rem;
+  }
+  .text-overlay h2 {
+    font-size: 3.6rem;
   }
 }
 
@@ -81,6 +132,9 @@
   }
   h2 {
     margin-bottom: 4rem;
+  }
+  .arrow-button {
+    margin-top: 80px;
   }
 
   .skills-text-box {
@@ -172,6 +226,11 @@
     padding: 2rem 7rem;
   }
 
+  section.intro-content.container {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    padding: 0 3.2rem 4rem 3.2rem;
+  }
   /* MOBILE NAVIGATION */
   .btn-mobile-nav {
     display: block;
@@ -193,6 +252,11 @@
     pointer-events: none;
     visibility: hidden;
     transition: all 0.5s ease-in;
+  }
+  .icon-mobile-nav.dark-icon {
+    height: 4rem;
+    width: 4rem;
+    color: var(--main-text-color--dark);
   }
 
   .nav-open .main-nav {
@@ -216,16 +280,18 @@
     margin-top: 14rem;
   }
 
-  .main-nav-link:link,
-  .main-nav-link:visited {
-    font-size: 2rem;
+  .main-nav-link:visited.mobile-link {
+    color: var(--main-hl-color--1);
   }
 }
 
 /*below 672px//small tablets*/
 @media (max-width: 42em) {
   body {
-    font-size: 1rem;
+    font-size: 1.2rem;
+  }
+  .header-logo {
+    font-size: 1.2rem;
   }
   .heading-hero-primary {
     font-size: 2.6rem;
@@ -243,7 +309,10 @@
   .btn {
     font-size: 1.2rem;
   }
-
+  .arrow-intro {
+    padding-left: 12px;
+    width: 24px;
+  }
   h2 {
     font-size: 2.2rem;
     margin-bottom: 4.8rem;
@@ -305,6 +374,16 @@
     margin-top: 54px;
   }
 
+  .portfolio-overlay-text h3 {
+    font-size: 1.8rem;
+  }
+  .image-overlay {
+    height: 300px;
+  }
+  .portfolio-overlay-img img.planten-app {
+    width: 170px;
+  }
+
   .portfolio-overlay-text {
     font-size: 1.1rem;
   }
@@ -317,9 +396,7 @@
   .portfolio-overlay-img img.dyktig-app {
     width: 140px;
   }
-  .image-overlay {
-    height: 300px;
-  }
+
   .project-tag {
     font-size: 1.1rem;
   }
@@ -354,6 +431,28 @@
   .footer-copyright {
     font-size: 0.9rem;
   }
+  main .image-container {
+    height: 40rem;
+  }
+  .header {
+    height: 6.4rem;
+  }
+  section .methods {
+    margin-top: 2rem;
+  }
+  .case-img-container .case-img {
+    padding: 2rem 0 1rem 0;
+  }
+  p.image-description {
+    font-size: 1rem;
+  }
+  section.content.container p:last-of-type {
+    margin-bottom: 4rem;
+  }
+  .image-container .text-overlay {
+    padding: 20px 0 0 30px;
+    transform: translate(-50%, -10%);
+  }
 }
 
 /* BELOW 544px */
@@ -362,9 +461,6 @@
     height: 3rem;
     width: 3rem;
     color: var(--main-text-color--light);
-  }
-  .header {
-    height: 6.4rem;
   }
   .heading-hero-primary {
     font-size: 2rem;
@@ -387,6 +483,13 @@
   .btn:link {
     font-size: 1.4rem;
   }
+  .arrow-button {
+    margin-top: 50px;
+  }
+  .arrow-intro {
+    width: 20px;
+    padding-left: 10px;
+  }
 
   h2 {
     font-size: 1.8rem;
@@ -400,14 +503,25 @@
   .portfolio-overlay-text {
     font-size: 1rem;
   }
+  .portfolio-overlay-text h3 {
+    font-size: 1.4rem;
+  }
   .portfolio-overlay-img img.sensio-app {
     width: 60px;
   }
   .portfolio-overlay-img img.dyktig-app {
     width: 100px;
   }
+  .portfolio-overlay-img img.planten-app {
+    width: 100px;
+  }
   .image-overlay {
     height: 260px;
+  }
+  .portfolio-container {
+    height: 260px;
+    padding: 2rem 3rem;
+    gap: 3rem;
   }
   .project-tag {
     font-size: 0.9rem;
@@ -477,6 +591,13 @@
     margin-top: 16px;
     font-size: 0.9rem;
   }
+  main .image-container {
+    height: 32rem;
+  }
+  .text-overlay h2 {
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+  }
 }
 
 /* BELOW 448px */
@@ -492,7 +613,7 @@
     margin-bottom: 2.2rem;
   }
   .btn:link {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
   .section-about {
     padding: 3rem 0 2.4rem 0;
@@ -531,24 +652,11 @@
     padding: 1.4rem;
     gap: 2.6rem;
   }
-  .project-tag {
-    font-size: 0.7rem;
-  }
   .grid-item-tag h3 {
     font-size: 0.9rem;
   }
   .image-overlay {
     height: 230px;
-  }
-  .portfolio-overlay-text {
-    padding: 4px;
-    font-size: 0.8rem;
-  }
-  .portfolio-overlay-img img.sensio-app {
-    width: 40px;
-  }
-  .portfolio-overlay-img img.dyktig-app {
-    width: 60px;
   }
   .view-web {
     margin-top: 6px;
@@ -620,12 +728,22 @@
   .portfolio-overlay-text {
     font-size: 0.6rem;
   }
+  .portfolio-overlay-text h3 {
+    font-size: 1.1rem;
+  }
+  .image-overlay {
+    height: 200px;
+  }
   .portfolio-overlay-img img.sensio-app {
-    width: 36px;
+    width: 50px;
   }
   .portfolio-overlay-img img.dyktig-app {
-    width: 54px;
+    width: 80px;
   }
+  .portfolio-overlay-img img.planten-app {
+    width: 80px;
+  }
+
   .footer .grid {
     gap: 1rem;
   }
