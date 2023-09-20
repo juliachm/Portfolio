@@ -22,6 +22,7 @@ body {
   font-family: 'DM Sans', sans-serif;
   font-size: 1.6rem;
   font-weight: 300;
+  line-height: 1.5;
   color: var(--main-text-color);
   overflow-x: hidden;
   background-color: var(--main-bg-color);
@@ -33,28 +34,17 @@ body {
   padding: 0 3.2rem;
 }
 
-.btn:link,
-.btn:visited {
-  font-family: 'Marcellus', serif;
-  display: inline-block;
-  text-decoration: none;
-  color: var(--main-hl-color--1);
-  font-size: 2.2rem;
-}
-
 .arrow-button {
-  position: relative;
-  padding: 10px 20px;
+  margin-top: 140px;
   color: var(--main-hl-color--1);
   border: none;
-  cursor: pointer;
-  transition: padding-right 0.8s ease-in-out;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-size: 1.8rem;
 }
-
-.arrow::before {
-  content: '\2192';
-  display: inline-block;
-  margin-left: 5px;
+.arrow-intro {
+  padding-left: 22px;
 }
 
 h2 {
@@ -71,21 +61,21 @@ h2 {
 
 .header {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
   height: 9.6rem;
   padding: 0 4.8rem;
   position: relative;
   margin: 0 auto;
   max-width: 180rem;
+  font-size: 2rem;
 }
 
 .main-nav-list {
-  font-family: 'Marcellus', serif;
-  font-size: 2rem;
   list-style: none;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   text-align: right;
   margin: auto;
@@ -99,9 +89,17 @@ h2 {
 .main-nav-link:visited {
   text-decoration: none;
   color: var(--main-hl-color--1);
-  font-weight: 500;
+  font-weight: 300;
   transition: all 0.3s;
   text-transform: uppercase;
+}
+.main-nav-link {
+  display: flex;
+}
+.header-logo {
+  text-decoration: none;
+  color: var(--main-text-color--light);
+  margin-left: 8rem;
 }
 
 .main-nav li {
@@ -178,9 +176,10 @@ h2 {
 }
 
 .hero-secondary {
-  font-family: 'Marcellus', serif;
+  font-family: 'DM Sans', sans-serif;
+  text-transform: uppercase;
   font-size: 1.8rem;
-  font-weight: 500;
+  font-weight: 300;
   color: var(--main-text-color--light);
 }
 .hero-secondary ~ .hero-secondary {
@@ -236,6 +235,9 @@ h2 {
   color: var(--main-hl-color--1);
   font-size: 1.4rem;
   margin-right: 5px;
+}
+.linkedin-link-text {
+  margin-top: 28px;
 }
 
 /* Skills card*/
@@ -324,11 +326,11 @@ h2 {
   height: 400px;
   max-width: 120rem;
   margin: 0 auto;
-  padding: 3rem 6rem;
+  padding: 3rem 16rem 3rem 6rem;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  gap: 6rem;
+  gap: 12rem;
 }
 
 .image-overlay {
@@ -358,13 +360,13 @@ h2 {
     url('../img/portfolio/office-bg.jpg');
 }
 
-.kids {
+.planten {
   background-image: linear-gradient(
       to right,
       rgba(51, 51, 51, 0.52) 50%,
       rgba(115, 115, 115, 0.73) 90%
     ),
-    url('../img/portfolio/kids.jpg');
+    url('../img/portfolio/monstera-plant.jpg');
 }
 .portfolio-overlay-img {
   display: flex;
@@ -382,26 +384,25 @@ h2 {
   object-fit: cover;
 }
 
+.portfolio-overlay-img img.planten-app {
+  width: 200px;
+  height: auto;
+  object-fit: cover;
+}
+
 .portfolio-overlay-text {
   color: rgb(244, 244, 244);
   font-size: 1.4rem;
   line-height: 1.4;
 }
-.portfolio-overlay-text p:not(:first-of-type) {
-  padding-bottom: 12px;
-}
-.grid-item-tag {
-  display: flex;
-  flex-direction: row;
-  gap: 80px;
-}
 
-.grid-item-tag h3 {
+.portfolio-overlay-text h3 {
   font-family: 'Marcellus', serif;
-  font-size: 2.2rem;
+  font-size: 2.8rem;
   text-transform: uppercase;
   font-weight: 400;
   margin-bottom: 32px;
+  width: 100%;
 }
 .project-tag {
   text-transform: uppercase;
@@ -423,10 +424,11 @@ hr {
 .view-web {
   margin-top: 24px;
 }
-.view-web a {
+
+.view-web {
   text-decoration: none;
   font-weight: 500;
-  color: var(--main-hl-color--2);
+  color: #f2c4ce;
 }
 
 /***************************/
