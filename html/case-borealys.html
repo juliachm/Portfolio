@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio of Julia Chmurna, UX designer and front-end developer"
+    />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200;9..40,300;9..40,500&family=Marcellus&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/queries.css" />
+    <link rel="stylesheet" href="../css/cases.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+    <script defer src="../js/script.js"></script>
+
+    <title>Julia Chmurna &mdash; Portfolio</title>
+
+    <!-- Google analytics-->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-CKKEV3PPPK"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'G-CKKEV3PPPK');
+    </script>
+  </head>
+
+  <body>
+    <section class="bcg-gradient">
+      <header class="header">
+        <a href="index.html" class="header-logo web-link">Julia Chmurna</a>
+        <nav class="main-nav">
+          <ul class="main-nav-list">
+            <li><a href="index.html#who" class="main-nav-link web-link mobile-link">About</a></li>
+            <li><a href="index.html#portfol" class="main-nav-link web-link mobile-link">Work</a></li>
+            <li><a href="index.html#cont" class="main-nav-link web-link mobile-link">Let's connect</a></li>
+          </ul>
+        </nav>
+        <button class="btn-mobile-nav">
+          <ion-icon class="icon-mobile-nav dark-icon" name="menu-outline"></ion-icon>
+          <ion-icon class="icon-mobile-nav dark-icon" name="close-outline"></ion-icon>
+        </button>
+      </header>
+    </section>
+
+    <main>
+      <div class="image-container">
+        <img src="../img/portfolio/aurora.jpg" alt="Aurora Background" />
+        <div>
+        <div class="text-overlay">
+          <h2>
+            Dancing Skies: Discover the northern lights with Borealys App
+          </h2>
+          <p class="project-tag">Software Engineering</p>
+          
+        </div>
+      </div>
+    </main>
+
+    <section class="intro-content container">
+        <div class="grid-container-case">
+          <p class="content-headline">Background</p>
+          <p>The university project involving the creation of an app within Android Studio using Kotlin, with a primary focus on collecting data from multiple APIs.</p>
+        </div>
+        <div class="grid-container-case">
+          <p class="content-headline">Challenge</p>
+          <p>Managing data from multiple sources and ensuring accessibility for all users, as well as taking midnight sun days into consideration.</p>
+        </div>
+        <div class="grid-container-case">
+          <p class="content-headline">My Role</p>
+          <p>UI Design, Designing the app's structure, Programming</p>
+        </div>
+      </section>
+
+      <section class="content container">
+        <p>I had the privilege of being part of a team that created the Borealys app, designed to monitor and predict northern lights activity using data from various sources. Our focus was on providing a great user experience and accessibility. We used the Material Design 3 framework in Android Studio, using Kotlin and XML for coding.</p>
+        <h3>Design process</h3>
+        <p>The design process began with a clear focus on user needs, visualized through several diagrams. Sequence Diagram, Class Diagram, and Use Case Diagram are essential components of software design and development, and helped us to visualize and understand the system's behavior, structure, and user interactions</p>
+        <div class="case-img-container-large">
+          <img src="../img/portfolio/use-case-diagram.png" alt="Use Case Diagram" class="case-img" >
+          <p class="image-description">Use Case Diagram</p>
+        </div>
+        <p>We utilized Android Studio as our integrated development environment (IDE), offering a testing platform through its built-in emulators.</p>
+        <p>For real-time updates, we integrated data from multiple APIs, including NOAA's planetary K index forecast, MET Locationforecast for cloud cover data, MET Sunrise for sunrise and sunset times, and Google's Maps SDK for interactive maps and Places API for location-based search.</p>
+        <p>When it came to crafting the app's layout, we embraced Material Design 3 principles to ensure a cohesive and appealing style. In addition to these design standards, I took on the task of creating custom weather icons to enhance the visual experience. We utilized XML for our layout designs, incorporating CardView to elegantly present data, MPAndroidChart's LineChart for detailed graphical representation, and ConstraintLayout to guarantee seamless adaptability across a variety of screen sizes.
+        </p>
+        <div class="case-img-container-small">
+          <img src="../img/portfolio/weather-icons.png" alt="Weather Icons" class="case-img" >
+          <p class="image-description">Suggestion for weather icons</p>
+        </div>
+        <p>As a diverse team, we recognized the value of blending the best aspects of Scrum and Kanban. Within this framework, we incorporated the concept of sprints, allowing us to combine structured planning with agility. Scrumban empowered us to welcome change while preserving a structured approach, being able to adapt to changing priorities and unforeseen challenges while staying on course toward our goals.</p>
+        <div class="case-img-container">
+          <img src="../img/portfolio/sprint.jpg" alt="Sprint" class="case-img" >
+          <p class="image-description">Sprint approach</p>
+      </div>
+        <h3>Challenges</h3>
+        <p>The app's usability is season-dependent, with winter being the optimal time for northern lights viewing due to the diminished sunlight during this period. Managing data from diverse sources while ensuring universal accessibility posed quite a challenge, further complicated by the unique factor of prolonged daylight during the "midnight sun" days in Norway and other countries located within or near the Arctic Circle. This meant that not only did we have to handle data intricacies but also adapt to the unique lighting conditions of the region for a seamless user experience.</p>
+        <h3>Conclusion</h3>
+        <p>Borealys is a result of teamwork, merging design, development, and project management. It keeps users informed about northern lights and provides its 3 days forecast. This project is a proof of what diverse teams can achieve together.</p>
+        <div class="case-img-container">
+          <img src="../img/portfolio/borealys-app.png" alt="Borealys app" class="case-img" >
+          <p class="image-description">Borealys app</p>
+      </div>
+      </section>
+
+    <footer class="footer" id="cont">
+      <div class="container">
+        <div class="grid grid--footer">
+          <div class="footer-text">
+            <p>Let's meet up for a cup of coffee!</p>
+          </div>
+          <div class="footer-contact">
+            <span>j.chmurna@gmail.com</span>
+          </div>
+
+          <div class="social-media">
+            <ul class="social-links">
+              <li>
+                <a
+                  class="footer-link"
+                  href="https://www.linkedin.com/in/julia-chmurna-9947b131/"
+                  target="_blank"
+                >
+                  <iconify-icon
+                    icon="mdi:linkedin"
+                    class="social-icon"
+                  ></iconify-icon>
+                </a>
+              </li>
+              <li>
+                <a
+                  class="footer-link"
+                  href="https://github.com/juliachm"
+                  target="_blank"
+                >
+                  <iconify-icon
+                    icon="mdi:github"
+                    class="social-icon"
+                  ></iconify-icon>
+                </a>
+              </li>
+              <li>
+                <a
+                  class="footer-link"
+                  href="https://www.instagram.com/julia_chmurna/"
+                  target="_blank"
+                >
+                  <iconify-icon
+                    icon="mdi:instagram"
+                    class="social-icon"
+                  ></iconify-icon>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <a href="#" class="back-to-top">
+            <img
+              class="arrow-to-top"
+              src="../img/div/arrow_up.svg"
+              alt="Arrow"
+            />
+          </a>
+        </div>
+
+        <div class="footer-copyright">
+          <p>&copy; 2023 - Julia Chmurna's Portfolio</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+  </body>
+</html>
