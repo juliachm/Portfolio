@@ -351,6 +351,15 @@ h2 {
     url('../img/portfolio/elderly.jpg');
 }
 
+.aurora {
+  background-image: linear-gradient(
+      to right,
+      rgba(51, 51, 51, 0.52) 20%,
+      rgba(115, 115, 115, 0.73) 130%
+    ),
+    url('../img/portfolio/aurora.jpg');
+}
+
 .office {
   background-image: linear-gradient(
       to right,
@@ -358,6 +367,14 @@ h2 {
       rgba(115, 115, 115, 0.73) 90%
     ),
     url('../img/portfolio/office-bg.jpg');
+}
+.faroe {
+  background-image: linear-gradient(
+      to right,
+      rgba(51, 51, 51, 0.52) 100%,
+      rgba(115, 115, 115, 0.73) 150%
+    ),
+    url('../img/portfolio/faroe.jpg');
 }
 
 .planten {
@@ -383,9 +400,20 @@ h2 {
   height: auto;
   object-fit: cover;
 }
+.portfolio-overlay-img img.borealys-app {
+  width: 280px;
+  height: auto;
+  object-fit: cover;
+}
 
 .portfolio-overlay-img img.planten-app {
   width: 200px;
+  height: auto;
+  object-fit: cover;
+}
+
+.portfolio-overlay-img img.faroe-web {
+  width: 260px;
   height: auto;
   object-fit: cover;
 }
